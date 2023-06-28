@@ -1,0 +1,155 @@
+@import url("https://font.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-blue: #004e98;
+  --main-gray: #f2f2f2;
+  --main-orange: #ff6700;
+  --main-white: #ffffff;
+  --main-black: #000000;
+  --second-black: #333333;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 10%;
+  background: var(--main-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: var(--main-white);
+  font-weight: 600;
+}
+
+.title {
+  width: 100%;
+  background: var(--main-black);
+  padding: 10rem 10% 3rem;
+  font-family: "League Gothic", sans-serif;
+  color: var(--main-gray);
+  font-size: 40px;
+}
+
+.content {
+  display: flex;
+}
+
+.nav {
+  width: 25%;
+  padding: 2rem 10%;
+  background: var(--main-orange);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  color: var(--main-white);
+  padding-top: 4rem;
+}
+
+.nav menu {
+    /* position: ; */
+}
+.nav p {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.container {
+  position: relative;
+  width: 75%;
+  background: var(--main-gray);
+  color: var(--main-black);
+  padding: 3rem 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.details {
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.container h2 {
+  font-size: 32px;
+  color: var(--main-orange);
+  border-bottom: 0.5rem solid var(--main-blue);
+  padding: 1rem;
+}
+
+.container p {
+  font-size: 20px;
+  padding: 1rem;
+}
+
+.tech-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tech-items {
+  padding: 0.25rem 1.5rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-black);
+}
+
+.tech-logo {
+  font-size: 10rem;
+  color: var(--main-blue);
+}
+
+.tech-name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.image-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image-item {
+  margin: 1rem;
+  width: 100%;
+  border: 0.5rem solid var(--main-black);
+}
